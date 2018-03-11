@@ -1,0 +1,213 @@
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out/src/native/macosx/MacMiniFB.o" "-c" "src/native/macosx/MacMiniFB.m"
+cargo:warning=src/native/macosx/MacMiniFB.m:66:20: warning: 'NSClosableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=        uint32_t styles = NSClosableWindowMask | NSMiniaturizableWindowMask;
+cargo:warning=                          ^~~~~~~~~~~~~~~~~~~~
+cargo:warning=                          NSWindowStyleMaskClosable
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:954:32: note: 'NSClosableWindowMask' has been explicitly marked deprecated here
+cargo:warning=static const NSWindowStyleMask NSClosableWindowMask API_DEPRECATED_WITH_REPLACEMENT("NSWindowStyleMaskClosable", macosx(10.0, 10.12)) = NSWindowStyleMaskClosable;
+cargo:warning=                               ^
+cargo:warning=src/native/macosx/MacMiniFB.m:66:43: warning: 'NSMiniaturizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=        uint32_t styles = NSClosableWindowMask | NSMiniaturizableWindowMask;
+cargo:warning=                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=                                                 NSWindowStyleMaskMiniaturizable
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:955:32: note: 'NSMiniaturizableWindowMask' has been explicitly marked deprecated here
+cargo:warning=static const NSWindowStyleMask NSMiniaturizableWindowMask API_DEPRECATED_WITH_REPLACEMENT("NSWindowStyleMaskMiniaturizable", macosx(10.0, 10.12)) = NSWindowStyleMaskMiniaturizable;
+cargo:warning=                               ^
+cargo:warning=src/native/macosx/MacMiniFB.m:69:13: warning: 'NSBorderlessWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                styles |= NSBorderlessWindowMask;
+cargo:warning=                          ^~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=                          NSWindowStyleMaskBorderless
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:952:32: note: 'NSBorderlessWindowMask' has been explicitly marked deprecated here
+cargo:warning=static const NSWindowStyleMask NSBorderlessWindowMask API_DEPRECATED_WITH_REPLACEMENT("NSWindowStyleMaskBorderless", macosx(10.0, 10.12)) = NSWindowStyleMaskBorderless;
+cargo:warning=                               ^
+cargo:warning=src/native/macosx/MacMiniFB.m:72:13: warning: 'NSResizableWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                styles |= NSResizableWindowMask;
+cargo:warning=                          ^~~~~~~~~~~~~~~~~~~~~
+cargo:warning=                          NSWindowStyleMaskResizable
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:956:32: note: 'NSResizableWindowMask' has been explicitly marked deprecated here
+cargo:warning=static const NSWindowStyleMask NSResizableWindowMask API_DEPRECATED_WITH_REPLACEMENT("NSWindowStyleMaskResizable", macosx(10.0, 10.12)) = NSWindowStyleMaskResizable;
+cargo:warning=                               ^
+cargo:warning=src/native/macosx/MacMiniFB.m:75:13: warning: 'NSTitledWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                styles |= NSTitledWindowMask;
+cargo:warning=                          ^~~~~~~~~~~~~~~~~~
+cargo:warning=                          NSWindowStyleMaskTitled
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:953:32: note: 'NSTitledWindowMask' has been explicitly marked deprecated here
+cargo:warning=static const NSWindowStyleMask NSTitledWindowMask API_DEPRECATED_WITH_REPLACEMENT("NSWindowStyleMaskTitled", macosx(10.0, 10.12)) = NSWindowStyleMaskTitled;
+cargo:warning=                               ^
+cargo:warning=src/native/macosx/MacMiniFB.m:187:38: warning: 'NSAlternateKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=        setKeyEquivalentModifierMask:NSAlternateKeyMask | NSCommandKeyMask];
+cargo:warning=                                     ^~~~~~~~~~~~~~~~~~
+cargo:warning=                                     NSEventModifierFlagOption
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:184:35: note: 'NSAlternateKeyMask' has been explicitly marked deprecated here
+cargo:warning=static const NSEventModifierFlags NSAlternateKeyMask          API_DEPRECATED_WITH_REPLACEMENT("NSEventModifierFlagOption", macosx(10.0, 10.12)) = NSEventModifierFlagOption;
+cargo:warning=                                  ^
+cargo:warning=src/native/macosx/MacMiniFB.m:187:59: warning: 'NSCommandKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=        setKeyEquivalentModifierMask:NSAlternateKeyMask | NSCommandKeyMask];
+cargo:warning=                                                          ^~~~~~~~~~~~~~~~
+cargo:warning=                                                          NSEventModifierFlagCommand
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:185:35: note: 'NSCommandKeyMask' has been explicitly marked deprecated here
+cargo:warning=static const NSEventModifierFlags NSCommandKeyMask            API_DEPRECATED_WITH_REPLACEMENT("NSEventModifierFlagCommand", macosx(10.0, 10.12)) = NSEventModifierFlagCommand;
+cargo:warning=                                  ^
+cargo:warning=src/native/macosx/MacMiniFB.m:260:46: warning: 'NSAnyEventMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=        event = [NSApp nextEventMatchingMask:NSAnyEventMask untilDate:[NSDate distantPast] inMode:NSDefaultRunLoopMode dequeue:YES];
+cargo:warning=                                             ^~~~~~~~~~~~~~
+cargo:warning=                                             NSEventMaskAny
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:158:26: note: 'NSAnyEventMask' has been explicitly marked deprecated here
+cargo:warning=static const NSEventMask NSAnyEventMask                 API_DEPRECATED_WITH_REPLACEMENT("NSEventMaskAny", macosx(10.0, 10.12)) = NSUIntegerMax;
+cargo:warning=                         ^
+cargo:warning=src/native/macosx/MacMiniFB.m:288:84: warning: 'NSTitledWindowMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                NSRect contentRect = [NSWindow contentRectForFrameRect: originalFrame styleMask: NSTitledWindowMask];
+cargo:warning=                                                                                                 ^~~~~~~~~~~~~~~~~~
+cargo:warning=                                                                                                 NSWindowStyleMaskTitled
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:953:32: note: 'NSTitledWindowMask' has been explicitly marked deprecated here
+cargo:warning=static const NSWindowStyleMask NSTitledWindowMask API_DEPRECATED_WITH_REPLACEMENT("NSWindowStyleMaskTitled", macosx(10.0, 10.12)) = NSWindowStyleMaskTitled;
+cargo:warning=                               ^
+cargo:warning=src/native/macosx/MacMiniFB.m:298:36: warning: unused parameter 'buffer' [-Wunused-parameter]
+cargo:warning=int mfb_update(void* window, void* buffer)
+cargo:warning=                                   ^
+cargo:warning=src/native/macosx/MacMiniFB.m:408:12: warning: unused variable 'ns_name' [-Wunused-variable]
+cargo:warning=        NSString* ns_name = [NSString stringWithUTF8String: name];
+cargo:warning=                  ^
+cargo:warning=src/native/macosx/MacMiniFB.m:541:12: warning: 'NSCommandKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                        mask |= NSCommandKeyMask;
+cargo:warning=                                ^~~~~~~~~~~~~~~~
+cargo:warning=                                NSEventModifierFlagCommand
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:185:35: note: 'NSCommandKeyMask' has been explicitly marked deprecated here
+cargo:warning=static const NSEventModifierFlags NSCommandKeyMask            API_DEPRECATED_WITH_REPLACEMENT("NSEventModifierFlagCommand", macosx(10.0, 10.12)) = NSEventModifierFlagCommand;
+cargo:warning=                                  ^
+cargo:warning=src/native/macosx/MacMiniFB.m:545:12: warning: 'NSControlKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                        mask |= NSControlKeyMask;
+cargo:warning=                                ^~~~~~~~~~~~~~~~
+cargo:warning=                                NSEventModifierFlagControl
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:183:35: note: 'NSControlKeyMask' has been explicitly marked deprecated here
+cargo:warning=static const NSEventModifierFlags NSControlKeyMask            API_DEPRECATED_WITH_REPLACEMENT("NSEventModifierFlagControl", macosx(10.0, 10.12)) = NSEventModifierFlagControl;
+cargo:warning=                                  ^
+cargo:warning=src/native/macosx/MacMiniFB.m:548:12: warning: 'NSShiftKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                        mask |= NSShiftKeyMask;
+cargo:warning=                                ^~~~~~~~~~~~~~
+cargo:warning=                                NSEventModifierFlagShift
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:182:35: note: 'NSShiftKeyMask' has been explicitly marked deprecated here
+cargo:warning=static const NSEventModifierFlags NSShiftKeyMask              API_DEPRECATED_WITH_REPLACEMENT("NSEventModifierFlagShift", macosx(10.0, 10.12)) = NSEventModifierFlagShift;
+cargo:warning=                                  ^
+cargo:warning=src/native/macosx/MacMiniFB.m:551:12: warning: 'NSAlternateKeyMask' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+cargo:warning=                        mask |= NSAlternateKeyMask;
+cargo:warning=                                ^~~~~~~~~~~~~~~~~~
+cargo:warning=                                NSEventModifierFlagOption
+cargo:warning=/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:184:35: note: 'NSAlternateKeyMask' has been explicitly marked deprecated here
+cargo:warning=static const NSEventModifierFlags NSAlternateKeyMask          API_DEPRECATED_WITH_REPLACEMENT("NSEventModifierFlagOption", macosx(10.0, 10.12)) = NSEventModifierFlagOption;
+cargo:warning=                                  ^
+cargo:warning=src/native/macosx/MacMiniFB.m:616:52: warning: unused parameter 'name' [-Wunused-parameter]
+cargo:warning=void mfb_destroy_menu(void* menu_item, const char* name)
+cargo:warning=                                                   ^
+cargo:warning=src/native/macosx/MacMiniFB.m:635:13: warning: unused variable 'win' [-Wunused-variable]
+cargo:warning=        OSXWindow* win = (OSXWindow*)window;
+cargo:warning=                   ^
+cargo:warning=17 warnings generated.
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out/src/native/macosx/OSXWindow.o" "-c" "src/native/macosx/OSXWindow.m"
+cargo:warning=src/native/macosx/OSXWindow.m:106:43: warning: unused parameter 'notification' [-Wunused-parameter]
+cargo:warning=- (void)windowWillClose:(NSNotification *)notification
+cargo:warning=                                          ^
+cargo:warning=src/native/macosx/OSXWindow.m:113:31: warning: unused parameter 'sender' [-Wunused-parameter]
+cargo:warning=- (BOOL)windowShouldClose:(id)sender
+cargo:warning=                              ^
+cargo:warning=src/native/macosx/OSXWindow.m:155:9: warning: unused variable 't' [-Wunused-variable]
+cargo:warning=        NSRect t = [self contentRectForFrameRect:bounds];
+cargo:warning=               ^
+cargo:warning=3 warnings generated.
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out/src/native/macosx/OSXWindowFrameView.o" "-c" "src/native/macosx/OSXWindowFrameView.m"
+cargo:warning=src/native/macosx/OSXWindowFrameView.m:127:53: warning: semicolon before method body is ignored [-Wsemicolon-before-method-body]
+cargo:warning=- (void)windowResized:(NSNotification *)notification;
+cargo:warning=                                                    ^
+cargo:warning=src/native/macosx/OSXWindowFrameView.m:25:26: warning: unused parameter 'rect' [-Wunused-parameter]
+cargo:warning=- (void)drawRect:(NSRect)rect
+cargo:warning=                         ^
+cargo:warning=src/native/macosx/OSXWindowFrameView.m:45:29: warning: unused parameter 'event' [-Wunused-parameter]
+cargo:warning=- (void)mouseDown:(NSEvent*)event
+cargo:warning=                            ^
+cargo:warning=src/native/macosx/OSXWindowFrameView.m:53:27: warning: unused parameter 'event' [-Wunused-parameter]
+cargo:warning=- (void)mouseUp:(NSEvent*)event
+cargo:warning=                          ^
+cargo:warning=src/native/macosx/OSXWindowFrameView.m:61:34: warning: unused parameter 'event' [-Wunused-parameter]
+cargo:warning=- (void)rightMouseDown:(NSEvent*)event
+cargo:warning=                                 ^
+cargo:warning=src/native/macosx/OSXWindowFrameView.m:69:32: warning: unused parameter 'event' [-Wunused-parameter]
+cargo:warning=- (void)rightMouseUp:(NSEvent*)event
+cargo:warning=                               ^
+cargo:warning=src/native/macosx/OSXWindowFrameView.m:127:41: warning: unused parameter 'notification' [-Wunused-parameter]
+cargo:warning=- (void)windowResized:(NSNotification *)notification;
+cargo:warning=                                        ^
+cargo:warning=7 warnings generated.
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+running: "ar" "crs" "/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out/libminifb_native.a" "/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out/src/native/macosx/MacMiniFB.o" "/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out/src/native/macosx/OSXWindow.o" "/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out/src/native/macosx/OSXWindowFrameView.o"
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+cargo:rustc-link-lib=static=minifb_native
+cargo:rustc-link-search=native=/Users/tylercharuhas/Desktop/rust-chip8-master/rust-chip8-master/target/debug/build/minifb-92d3d59723da3302/out

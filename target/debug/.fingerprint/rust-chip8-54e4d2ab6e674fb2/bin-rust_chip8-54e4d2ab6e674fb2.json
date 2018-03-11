@@ -1,0 +1,1 @@
+{"rustc":17244551033254524728,"features":"[]","target":17027193409881637465,"profile":11635097592834020980,"path":1036222786711178230,"deps":[["minifb v0.9.2",6123928126210275107],["rand v0.3.22",16393030671809125099]],"local":[{"MtimeBased":[[1520739109,0],".fingerprint/rust-chip8-54e4d2ab6e674fb2/dep-bin-rust_chip8-54e4d2ab6e674fb2"]}],"rustflags":[]}

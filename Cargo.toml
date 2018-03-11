@@ -1,0 +1,8 @@
+[package]
+name = "tylers-chip8"
+version = "0.1.0"
+authors = ["Tyler C <tylercharuhas@gmail.com>"]
+
+[dependencies]
+minifb = "0.9.2"
+rand = "0.3"
